@@ -8,7 +8,23 @@
     <script defer src="script.js"></script>
   </head>
   <body>
-    <h1>The winner is:</h1>
-    <span class="winner"></span>
+    <div class="selection">
+      <button class="selection__rock">ROCK</button>
+      <button class="selection__paper">PAPER</button>
+      <button class="selection__scissors">SCISSORS</button>
+    </div>
+    <div class="players">
+      <div class="players__you">
+        <h2 class="players__you-title">Your score</h2>
+        <span class="players__you-selection"></span>
+        <span class="players__you-score">0</span>
+      </div>
+      <div class="players__computer">
+        <h2 class="players__computer--title">Computer score</h2>
+        <span class="players__computer-selection"></span>
+        <span class="players__computer-score">0</span>
+      </div>
+    </div>
+    <h3 class="winner"></h3>
   </body>
 </html>
